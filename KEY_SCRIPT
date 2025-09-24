@@ -1,0 +1,7 @@
+ssh -T git@github.com
+ssh-add -l
+
+git remote set-url origin git@github.com:SUNYOrange-CSC/testing-libraries-sudoCreate258.git
+
+ssh-keygen -t ed25519 -C "<email>"
+cat ~/.ssh/id_ed25519.pub
